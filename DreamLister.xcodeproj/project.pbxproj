@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720E7F101EDF49130011080B /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E7F0F1EDF49130011080B /* ItemCell.swift */; };
 		72F970541EDDC393004E5C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F970531EDDC393004E5C19 /* AppDelegate.swift */; };
 		72F970561EDDC393004E5C19 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F970551EDDC393004E5C19 /* MainVC.swift */; };
 		72F970591EDDC393004E5C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F970571EDDC393004E5C19 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		720E7F0F1EDF49130011080B /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		72F970501EDDC393004E5C19 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F970531EDDC393004E5C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F970551EDDC393004E5C19 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				72F970931EDE055F004E5C19 /* MaterialView.swift */,
+				720E7F0F1EDF49130011080B /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720E7F101EDF49130011080B /* ItemCell.swift in Sources */,
 				72F9708A1EDDFD75004E5C19 /* ItemType+CoreDataClass.swift in Sources */,
 				72F9708B1EDDFD75004E5C19 /* ItemType+CoreDataProperties.swift in Sources */,
 				72F970561EDDC393004E5C19 /* MainVC.swift in Sources */,
@@ -365,6 +369,7 @@
 				72F970671EDDC393004E5C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
